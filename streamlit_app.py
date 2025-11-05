@@ -3,6 +3,16 @@ import leafmap.foliumap as leafmap
 import pandas as pd
 st.set_page_config(layout="wide")
 
+# Customize the sidebar
+markdown = """
+Web App URL: <https://nantoudebris.streamlit.app/>
+GitHub Repository: <https://github.com/8048-kh/Debris-rep/tree/master>
+"""
+
+st.sidebar.title("About")
+st.sidebar.info(markdown)
+logo = "https://s3-ap-northeast-1.amazonaws.com/lazybusiness/data/nellhung_175/images/2023/08/0806/1.jpeg"
+st.sidebar.image(logo)
 
 # Customize page title
 st.title("南投原鄉部落與土石流分布")
