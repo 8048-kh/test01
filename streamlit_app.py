@@ -37,3 +37,13 @@ st.markdown(markdown)
 tribes_df = pd.read_csv("https://github.com/8048-kh/Debris-rep/raw/refs/heads/master/Data/Nantou_Tribe.csv")
 st.header("部落名稱")
 st.table(tribes_df[["tribe name"]])
+
+#new
+import streamlit as st
+
+st.title("🏞️ 清流部落")
+st.markdown("""
+清流部落，日人稱川中島，三面臨水，族人稱為「gluban」。
+1931 年霧社事件後，日本政府將抗日六部落的餘生者移居此地。
+""")
+
