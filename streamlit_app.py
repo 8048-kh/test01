@@ -15,22 +15,18 @@ logo = "https://s3-ap-northeast-1.amazonaws.com/lazybusiness/data/nellhung_175/i
 st.sidebar.image(logo)
 
 # Customize page title
-st.title("南投原鄉部落與土石流分布")
+st.title("集團移住")
 
 st.markdown(
     """
-    南投原鄉部落與土石流潛勢溪流、土石流潛勢溪流範圍分布
+    集團移住
     """
 )
 
 st.header("目錄")
 
 markdown = """
-1. 原鄉部落座標與資訊
-2. 原鄉部落與土石流潛勢溪流
-3. 原鄉部落與土石流潛勢溪流範圍
-4. 土石流潛勢溪流範圍熱區圖
-
+1. 清流部落
 """
 
 st.markdown(markdown)
