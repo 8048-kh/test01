@@ -9,14 +9,6 @@ Web App URL: <https://blank-app-qc2181tdcxg.streamlit.app/>
 GitHub Repository: <https://github.com/8048-kh/test01/tree/main>
 """
 
-st.header("目錄")
-
-markdown = """
-1.清流部落
-"""
-
-st.markdown(markdown)
-
 st.sidebar.title("About")
 st.sidebar.info(markdown)
 
@@ -29,8 +21,13 @@ st.markdown(
     """
 )
 
+st.header("目錄")
 
+markdown = """
+1.清流部落
+"""
 
+st.markdown(markdown)
 
 #m = leafmap.Map(center=[23.932630, 120.986852], zoom=10)
 #tribes = "https://github.com/8048-kh/Debris-rep/raw/refs/heads/master/Data/Nantou_Tribe.csv"
