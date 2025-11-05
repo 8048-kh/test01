@@ -5,8 +5,8 @@ st.set_page_config(layout="wide")
 
 # Customize the sidebar
 markdown = """
-Web App URL: <https://nantoudebris.streamlit.app/>
-GitHub Repository: <https://github.com/8048-kh/Debris-rep/tree/master>
+Web App URL: <https://blank-app-qc2181tdcxg.streamlit.app/>
+GitHub Repository: <https://github.com/8048-kh/test01/tree/main>
 """
 
 st.sidebar.title("About")
