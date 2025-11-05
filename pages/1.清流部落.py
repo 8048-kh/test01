@@ -1,5 +1,5 @@
 import streamlit as st
-
+streamlit run streamlit_app.py
 st.title("清流部落（川中島）")
 st.subheader("歷史背景")
 st.write("""
