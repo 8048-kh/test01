@@ -1,6 +1,13 @@
 import streamlit as st
 import leafmap.foliumap as leafmap
 import pandas as pd
+
+import streamlit as st
+
+st.set_page_config(page_title="我的多頁面應用", layout="wide")
+st.title("主頁面：台灣部落地理故事")
+st.write("請從左邊的側邊欄選擇子頁面（例如：清流部落）")
+
 st.set_page_config(layout="wide")
 
 # Customize the sidebar
